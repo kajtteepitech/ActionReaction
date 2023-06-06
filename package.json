@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@react-native-picker/picker": "^2.4.8",
+    "@sendgrid/mail": "^7.7.0",
+    "create-react-app": "^5.0.1",
+    "cron": "^2.2.0",
+    "node-cron": "^3.0.2"
+  }
+}

@@ -1,0 +1,101 @@
+.card {
+  max-width: 80%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 3vh;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #0070f3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0060d9;
+}
+
+button:active {
+  background-color: #0050c0;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 112, 243, 0.5);
+}
+
+.button.block {
+  width: 100%;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ul-action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+}
+
+.button-action {
+  width: 30%;
+  margin-bottom: 20px;
+  height: 40%;
+}
+
+@media (max-width: 800px) {
+  .button-action {
+    width: 30%;
+    /* height: 20%; */
+  }
+  .ul-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .ul-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 23vh;
+  }
+}

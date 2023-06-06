@@ -1,0 +1,37 @@
+.button-get-timer-discord {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-send-mes-discord {
+    margin-left: auto;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.input-message-discord {
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+.message-text-discord {
+    margin-left: 35px;
+}
+
+@media screen and (max-width: 390px) {
+    .message-text-discord {
+        margin-left: 0px;
+    }
+  }
+
+.set-timer-discord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button-set-timer-discord{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}

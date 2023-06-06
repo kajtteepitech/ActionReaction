@@ -1,0 +1,38 @@
+.send-mail-hour-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-hour {
+  margin-left: 1%;
+  height: 40px;
+}
+
+.send-mail-hour-input input {
+    margin-bottom: 0px;
+  }
+
+  .my-dropdown {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+  .top-meteo {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+
+  .button-return-main-menu {
+    margin-top: 5%;
+  }

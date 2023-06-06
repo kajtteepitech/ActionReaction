@@ -1,0 +1,66 @@
+.button-select-door{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-door{
+    width: 30%;
+    margin-top: 40px;
+    height: 100px;
+}
+
+.my-dropdown {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+.timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.timer select{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.button-timer-val{
+    margin-bottom: 17px;
+}
+
+.timers {
+    border: 1px solid black;
+    padding: 10px;
+    width: 35%;
+    margin: 0 auto;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.timers li {
+    padding: 10px;
+    text-align: center;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}

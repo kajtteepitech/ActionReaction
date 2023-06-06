@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile.prod
+    ports:
+      - 8080:8080
+  client:
+    build:
+      context: ./app
+      dockerfile: Dockerfile.prod
+    ports:
+      - 8081:8081
+  # mobile_client:
+  #   build:
+  #     context: ./Dev_Modile_App/AwesomeProject
+  #     dockerfile: Dockerfile
+  #   volumes:
+  #     - .:/app
+  #   environment:
+  #     - ANDROID_HOME=/opt/android-sdk-linux
+  #   depends_on:
+  #     - server
+  #   command: react-native run-android
